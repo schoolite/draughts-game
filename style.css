@@ -4,17 +4,23 @@
      box-sizing: border-box;
 }
 .checkers{
-     /* position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     box-shadow: 0px 0px 1.5rem 0.7rem rgb(0 0 0 / 20%); */
-     /* display: grid;
-     grid-template-columns: auto auto auto auto auto auto auto auto auto auto; */
+     height: 100vh;
+     box-shadow: 0px 0px 1.5rem 0.7rem rgb(0 0 0 / 20%);
+     display: grid;
+     grid-template-columns: repeat(10,1fr);
+     width: 50%;
+     margin: auto;
 }
 .box{
-     width: 85px;
-     padding: 35px 0;
+     width: 100%;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.box.custom{
+     
 }
 .brown{
      background-color: brown;
@@ -26,15 +32,13 @@
      background-color: #fff;
      width: 50px;
      height: 50px;
-     padding: 12px;
      border: 1px solid #000;
      border-radius: 50%;
 }
 .check-black{
      background-color: #000;
-     width: 20px;
-     height: 20px;
-     padding: 12px;
+     width: 50px;
+     height: 50px;
      border: 1px solid #fff;
      border-radius: 50%;
 }
