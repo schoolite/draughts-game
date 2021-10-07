@@ -42,3 +42,20 @@ body{
      border: 1px solid #fff;
      border-radius: 50%;
 }
+.player_turn{
+     text-align: center;
+     margin-top: 15px;
+}
+.turn{
+     font-size: 22px;
+     font-family: sans-serif;
+     color: #888;
+}
+.hr_line{
+     background-color: #333;
+     padding: 1px;
+     margin: 0 10px;
+}
+.active{
+     color: #000;
+}
